@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--===================== BOX ICONS ======================-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--===================== SWIPER CSS ======================-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!--===================== CSS ======================-->
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>PRONINGSERG</title>
+  </head>
+  <body>
+    <!--===================== HEADER ======================-->
+    <header class="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">
+          <!-- <i class="bx bxs-hard-hat"></i> -->
+          <img
+            src="assets/img/logo__proingserg.svg"
+            alt=""
+            class="nav__logo-img"
+          />
+          PRO<span>INGSERG</span>
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <a href="#" class="nav__logo-second">
+            <!-- <i class="bx bxs-hard-hat"></i> -->
+            <img
+              src="assets/img/logo__proingserg.svg"
+              alt=""
+              class="nav__logo-img"
+            />
+            PRO<span>INGSERG</span>
+          </a>
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">INICIO</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">NOSOTROS</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">SERVICIOS</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">PROYECTOS</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">CONTACTO</a>
+            </li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+        </div>
+        <div class="nav__btns">
+          <div class="nav__info" id="nav-info">
+            <i class="bx bx-info-circle"></i>
+          </div>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="bx bx-grid-alt"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--===================== Home ======================-->
+    <section class="home">
+      <div class="swiper bg-slider">
+        <div class="swiper-wrapper">
+          <!--===== portal 1 =====-->
+          <div class="swiper-slide">
+            <img class="portal__img" src="assets/img/home-portal-1.jpg" />
+            <div class="bd-container">
+              <div class="portal__data">
+                <h2 class="portal__subtitle">Nosotros</h2>
+                <h1 class="portal__title">Brindamos el mejor servicio</h1>
+                <p class="portal__description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                  mollitia et necessitatibus, consequatur error id?
+                </p>
+                <a href="#" class="portal__button"
+                  >Explorar
+                  <i class="bx bx-right-arrow-alt portal__button-icon"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!--===== portal 2 =====-->
+          <div class="swiper-slide">
+            <img class="portal__img" src="assets/img/home-portal-2.jpg" />
+            <div class="bd-container">
+              <div class="portal__data">
+                <h2 class="portal__subtitle">Proyectos</h2>
+                <h1 class="portal__title">Hacemos que el sueño cobre vida</h1>
+                <p class="portal__description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                  mollitia et necessitatibus, consequatur error id?
+                </p>
+                <a href="#" class="portal__button"
+                  >Explorar
+                  <i class="bx bx-right-arrow-alt portal__button-icon"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!--===== portal 3=====-->
+          <div class="swiper-slide">
+            <img class="portal__img" src="assets/img/home-slide-3.jpg" />
+            <div class="bd-container">
+              <div class="portal__data">
+                <h2 class="portal__subtitle color-white">Contactanos</h2>
+                <h1 class="portal__title color-white">
+                  Del concepto a la creación
+                </h1>
+                <p class="portal__description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                  mollitia et necessitatibus, consequatur error id?
+                </p>
+                <a href="#" class="portal__button"
+                  >Explorar<i
+                    class="bx bx-right-arrow-alt portal__button-icon"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-slider-thumbs controls">
+        <div class="swiper-wrapper thumbs-container">
+          <img
+            src="assets/img/home-portal-1.jpg"
+            class="swiper-slide controls__img"
+            alt=""
+          />
+          <img
+            src="assets/img/home-portal-2.jpg"
+            class="swiper-slide controls__img"
+            alt=""
+          />
+          <img
+            src="assets/img/home-slide-3.jpg"
+            class="swiper-slide controls__img"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <!--===================== MAIN ======================-->
+    <!--blabla-->
+    <main class="main bd-container">
+      <!--about section stars-->
+      <section class="about section__container" id="about">
+        <h1 class="about__title heading__title">Nosotros</h1>
+        <div class="about__content">
+          <div class="about__content-video">
+            <video src="assets/img/about-vid.mp4" loop muted autoplay></video>
+          </div>
+          <div class="about__content-description">
+            <h3>¡le proporcionaremos el mejor trabajo que soñó!</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+              libero ducimus aliquam? Architecto dicta aliquid sed voluptatem
+              nesciunt inventore sunt?
+            </p>
+            <a href="#" class="btn__black">leer más</a>
+          </div>
+        </div>
+        <div class="about__box">
+          <div class="box">
+            <h3>10+</h3>
+            <p>años de experiencia</p>
+          </div>
+
+          <div class="box">
+            <h3>1500+</h3>
+            <p>proyectos completados</p>
+          </div>
+
+          <div class="box">
+            <h3>70+</h3>
+            <p>clientes satisfechos</p>
+          </div>
+
+          <div class="box">
+            <h3>450+</h3>
+            <p>trabajadores activos</p>
+          </div>
+        </div>
+      </section>
+      <!--about section ends-->
+    </main>
+
+    <!--===================== SWIPER JS ======================-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!--===================== MAIN JS ======================-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
