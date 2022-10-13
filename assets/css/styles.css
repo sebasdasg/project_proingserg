@@ -14,6 +14,7 @@
   --text-color-light: hsl(0, 0%, 55%);
   --body-color: hsl(0, 0%, 99%);
   --container-color: #fff;
+  --container-ligth-color: hsl(0, 0%, 93%);
   --border-color: hsl(0, 0%, 94%);
   --black-color: #111;
   --section-bg-color: #202834;
@@ -97,8 +98,8 @@ img {
 }
 /*===== generales =====*/
 .heading__title {
-  font-size: 2rem;
-  font-weight: 500;
+  font-size: 3rem;
+  font-weight: var(--font-semi-bold);
   color: var(--black-color);
   text-transform: capitalize;
   margin-bottom: 1rem;
@@ -412,6 +413,9 @@ img {
     font-size: cal(var(--big-font-size) - 0.2rem);
     font-weight: cal(var(--font-medium) - 100);
   }
+  .active__link {
+    border-bottom: var(--first-color) 2px;
+  }
   .portal__data {
     top: 25%;
     max-width: 70%;
@@ -491,14 +495,32 @@ img {
   font-size: calc(var(--big-font-size) + 0.5rem);
   font-weight: var(--font-medium);
   color: var(--black-color);
-  text-transform: capitalize;
+  margin-bottom: 1.5rem;
+  /* text-transform: capitalize; */
 }
 .about__content-description p {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 .about__box {
-  display: flex;
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  align-items: center;
 }
 .box {
-  background-color: var(--text-color-light);
+  background-color: var(--container-ligth-color);
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+.box h3 {
+  font-size: 3rem;
+  color: var(--black-color);
+  font-weight: var(--font-semi-bold);
+}
+.box p {
+  color: var(--title-color);
+  font-size: 1.8rem;
+  padding-top: 1rem;
 }
